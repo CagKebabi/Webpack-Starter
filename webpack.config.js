@@ -74,4 +74,4 @@ module.exports = {
 //source map ler hata ayıklamak için iyidir çünkü çoğu zaman bize asıl sorunun nerede olduğunu göstermeyen satır numarasına sahip hata mesajları
 //alırız. dist, production kodumuz için veya kaynak kodumuz için bize bir harita .map oluşturur.
 //Oluşturmak için webpack.config dosyamıza devTool: 'source-map', eklememiz yeterlidir.Böylece her build aldığımızda js dosyamızın
-//.map uzantılı source-map i de oluşturulacaktır.
+//.map uzantılı source-map i de oluşturulacaktır.Böylece oluşturulan source-map ile tarayıcıda hata ayıklamamız kolaylaşacaktır.
