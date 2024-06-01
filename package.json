@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webpackbuild": "webpack"
+    "webpackbuild": "webpack",
+    "dev": "webpack serve"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "sass-loader": "^14.2.1",
     "style-loader": "^4.0.0",
     "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   }
 }
